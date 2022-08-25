@@ -1,0 +1,11 @@
+Before optomizer:
+reduce 100 seam of column: 120s for lake.jpg (size = 800x533)
+reduce 100 seam of column: 97s for tree.jpg (size = 800x436)
+reduce 100 seam of column: 103s for beach.jpg (size = 730x487)
+reduce 100 seam of column: 902s for beach2.jpg (size = 2120x1414)
+
+After optomizer with multi processing:
+reduce 100 seam of column: 9s for lake.jpg (size = 800x533)
+reduce 100 seam of column: 8.5s for tree.jpg (size = 800x436)
+reduce 100 seam of column: 7.5s for beach.jpg (size = 730x487)
+reduce 100 seam of column: 57s for beach2.jpg (size = 2120x1414)
